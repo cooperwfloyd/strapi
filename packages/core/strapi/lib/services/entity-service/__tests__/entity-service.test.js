@@ -279,7 +279,6 @@ describe('Entity service', () => {
               {
                 id: 1,
                 __pivot: {
-                  order: expect.any(Number),
                   field: 'activity',
                   component_type: 'basic.activity',
                 },
